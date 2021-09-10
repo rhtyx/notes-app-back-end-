@@ -1,11 +1,12 @@
-const { Pool } = require('pg');
-
-const pool = new Pool();
-
-const query = {
-  text: 'INSERT INTO karyawan VALUES(a, dicoding, dicoding@apa.com, jl.jajan)',
+const obj = {
+  id: 80,
+  nama: 'spesial',
 };
 
-const result = pool.query(query);
+const { id } = obj;
 
-console.log(result.rows);
+function hitung(num) {
+  console.log(num + 1);
+}
+
+console.log({ id });
