@@ -1,12 +1,8 @@
 const obj = {
-  id: 80,
-  nama: 'spesial',
+  id: 23,
+  name: 'asdfasd',
 };
 
-const { id } = obj;
+const { id: halo } = obj;
 
-function hitung(num) {
-  console.log(num + 1);
-}
-
-console.log({ id });
+console.log(halo);
